@@ -1,0 +1,30 @@
+/* www.divcss5.com公共分页CSS代码 */
+BODY {
+    FONT-SIZE: 12px;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    WIDTH: 60%; PADDING-LEFT: 25px;
+}
+DIV.jogger {
+    PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 7px;
+    PADDING-TOP: 2px; FONT-FAMILY: "Lucida Sans Unicode",
+"Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif
+}
+DIV.jogger A {
+    PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+    MARGIN: 2px; COLOR: #fff; PADDING-TOP: 0.5em;
+    BACKGROUND-COLOR: #ee4e4e; TEXT-DECORATION: none
+}
+DIV.jogger A:hover {
+    PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+    MARGIN: 2px; COLOR: #fff; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #de1818
+}
+DIV.jogger A:active {
+    PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+    MARGIN: 2px; COLOR: #fff; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #de1818
+}
+DIV.jogger SPAN.current {
+    PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+    MARGIN: 2px; COLOR: #6d643c; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #f6efcc
+}
+DIV.jogger SPAN.disabled {
+    DISPLAY: none
+}
