@@ -170,23 +170,37 @@
       <version>1.2</version>
     </dependency>
 
+    <!--ActiveMQ依赖-->
+    <dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-broker</artifactId>
+      <version>5.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-client</artifactId>
+      <version>5.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.geronimo.specs</groupId>
+      <artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.geronimo.specs</groupId>
+      <artifactId>geronimo-jms_1.1_spec</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.5</version>
+    </dependency>
+
+
   </dependencies>
 
   <build>
-    <!--    <plugins>
-        <plugin>
-           <groupId>org.eclipse.jetty</groupId>
-           <artifactId>jetty-maven-plugin</artifactId>
-           <version>9.0.0.v20130308</version>
-           <configuration>
-             <httpConnector>
-               <port>8888</port>
-               <host>localhost</host>
-             </httpConnector>
-             <scanIntervalSeconds>1</scanIntervalSeconds>
-           </configuration>
-         </plugin>
-        </plugins>-->
     <plugins>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
@@ -199,6 +213,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>pagehelper-study</finalName>
+    <finalName>bc-study</finalName>
   </build>
 </project>
