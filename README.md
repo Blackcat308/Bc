@@ -9,3 +9,6 @@ spring + springMVC + myBatis + myBatisPagehelper + SpringJUnit4ClassRunner + Act
 后端技术  Apache Shiro  Spring session  PageHelper FluentValidator Thymeleaf Velocity ZooKeeper Dubbo TBSchedule & elastic-job Redis	
          Solr & Elasticsearch Quartz Ehcache ActiveMQ JStorm FastDFS Swagger2 sequence Jenkins
 前端技术  暂无
+
+                                                                                                               author： Blackcat
+                                                                                                 blog:http://write.blog.csdn.net/postlist
