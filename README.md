@@ -1,6 +1,6 @@
 # Bc
 项目已做
-spring + springMVC + myBatis + myBatisPagehelper + SpringJUnit4ClassRunner + ActiveMQ + ....
+spring + springMVC + myBatis + myBatisPagehelper + SpringJUnit4ClassRunner + ActiveMQ + Elasticsearch + ....
 
 作为一个用来逐渐完善的小项目
 预期想达到的目的是 入门一些 后端的技术  前端的技术  

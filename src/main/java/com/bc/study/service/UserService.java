@@ -1,5 +1,8 @@
 package com.bc.study.service;
 
+import com.bc.study.entity.User;
+
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -9,4 +12,6 @@ import java.util.Map;
  */
 public interface UserService {
     Map<Object, Object> getList(Integer page, Integer pageSize);
+
+    List<User> toSearch(String index);
 }

@@ -15,6 +15,13 @@ public class User {
 
     private String userSex;
 
+    public User() {
+        this.userId = userId;
+        this.userName = userName;
+        this.userAge = userAge;
+        this.userSex = userSex;
+    }
+
     @Override
     public String toString() {
         return "User{" +
